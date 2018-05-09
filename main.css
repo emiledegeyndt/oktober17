@@ -1,0 +1,186 @@
+html {
+ height: 100%
+}
+body {
+	background-color: white;
+	cursor: url("rodemuis.png"), auto;
+	font-family: Arial;
+}
+
+
+body {
+	height: 3000px;
+}
+
+h1 {
+	color: white;
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	padding-left: 500px;
+	padding-top: 1000px;
+}
+
+
+.beneden{
+	position: fixed;
+	width: 60%;
+	bottom: 30px;
+	padding-left: 16%;
+	pointer-events: none;
+	z-index: 999;
+}
+
+#test{
+    display:none;
+
+    }
+
+#test2{
+	display:none;
+}
+
+#test3{
+	display:none;
+		
+}
+	
+#north{
+	position: fixed;
+	width: 20%;
+	top: 100px;
+	left:100px;
+}
+
+.draaio{
+	display: none;
+	position: fixed;
+	left: 1100px;
+	top: 350px;
+	width: 50%;
+
+}
+
+#cutter{
+	display:none;
+	position: fixed;
+	left: 300px;
+	top: 50px;
+	width: 60%; 
+}
+
+#vlieg{
+	display: none;
+	left: 0px;
+	position: fixed;
+	z-index: 9999;
+	top: 20px;
+	width: 500px
+}
+
+#hoofd1{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	width: 20%;
+}
+
+#crab{
+	display: none;
+	position: fixed;
+	left: 500px;
+	top: 300px;
+	width: 30%;
+}
+
+#gov{
+	display: none;
+	position: fixed;
+	left: 400px;
+	top: 300px;
+	width: 50%;
+}
+
+#hoofd2 {
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 300px;
+	width: 30%;
+}
+
+#orion {
+	display: none;
+	position: fixed;
+	left: 400px;
+	top: 250px;
+	width: 50%
+}
+
+#moeilijk {
+	width: 800%;
+}
+
+#gek{
+	display: none;
+	position: fixed;
+	left: 500px;
+	top: 200px;
+	width: 25%;
+	z-index: 2
+}
+
+#spoopy2{
+	display: none;
+}
+
+#Williams{
+	display: none;
+	position: fixed;
+	left: 400px;
+	top: 300px;
+	z-index: 99;
+}
+
+#crime{
+	display: none;
+	position: fixed;
+	width: 30%;
+	left: 100px;
+	top: 300px;
+	z-index: 1;
+
+}
+
+#crimeboven{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 5;
+	pointer-events: none;
+}
+
+#crimebeneden{
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	z-index: 4;
+	pointer-events: none;
+}
+
+#click{
+	display: none;
+	position: fixed;
+	width: 15%;
+	left: 450px;
+	top: 250px;
+	z-index: 99;
+}
+
+#bullet{
+	position: fixed;
+	width: 25%;
+	left: 400px;
+	top: 150px;
+	z-index: 3;
+}
